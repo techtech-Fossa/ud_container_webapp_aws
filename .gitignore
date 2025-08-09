@@ -203,4 +203,4 @@ _tmp/
 _old/
 
 # VS code extention
-extentions.json
+.vscode/
