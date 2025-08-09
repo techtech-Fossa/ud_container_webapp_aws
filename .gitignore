@@ -201,3 +201,6 @@ terraform.rc
 _work/
 _tmp/
 _old/
+
+# VS code extention
+extentions.json
