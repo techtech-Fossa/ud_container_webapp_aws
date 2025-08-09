@@ -8,15 +8,11 @@ permissions:
   contents: read
 
 jobs:
-  sample:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      - name: Run
-        run: |
-          echo "Hello, World"
-          echo "This is a sample workflow"
       
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
